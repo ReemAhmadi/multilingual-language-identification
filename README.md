@@ -12,18 +12,18 @@ This project explores how different text representations and machine learning mo
 
 ## Key Features
 
-- Language identification across 20 languages
-- Text cleaning and preprocessing
-- Bag of Words representation
-- Word-Level TF-IDF
-- Character-Level TF-IDF
-- Naive Bayes classifier
-- Logistic Regression classifier
-- Support Vector Machine (SVM)
-- Model comparison and evaluation
-- Confusion matrix visualization
-- Optional ALLAM large language model experiment
-- Optional Gradio interface for interactive prediction
+* Language identification across 20 languages
+* Text cleaning and preprocessing
+* Bag of Words representation
+* Word-Level TF-IDF
+* Character-Level TF-IDF
+* Naive Bayes classifier
+* Logistic Regression classifier
+* Support Vector Machine (SVM)
+* Model comparison and evaluation
+* Confusion matrix visualization
+* Optional ALLAM large language model experiment
+* Optional Gradio interface for interactive prediction
 
 ## Best Result
 
@@ -51,7 +51,7 @@ Download the dataset and place `train.csv` in the same directory as the notebook
 ```text
 multilingual-language-identification/
 │
-├── language_identification.ipynb
+├── language\\\\\\\\\\\\\\\_identification.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -59,22 +59,22 @@ multilingual-language-identification/
 
 ## Technologies
 
-- Python
-- Pandas
-- NumPy
-- NLTK
-- Scikit-learn
-- Matplotlib
-- Hugging Face Transformers
-- Gradio
-- PyTorch
+* Python
+* Pandas
+* NumPy
+* NLTK
+* Scikit-learn
+* Matplotlib
+* Hugging Face Transformers
+* Gradio
+* PyTorch
 
-## Installation
+## Installation:
 
-Clone the repository:
+Clone the repository:o
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/multilingual-language-identification.git
+git clone https://github.com/ReemAhmadi/multilingual-language-identification.git
 cd multilingual-language-identification
 ```
 
@@ -91,7 +91,7 @@ Then download `train.csv` from the Kaggle dataset linked above.
 Open:
 
 ```text
-language_identification.ipynb
+language\\\\\\\\\\\\\\\_identification.ipynb
 ```
 
 using Jupyter Notebook, JupyterLab, VS Code, or Google Colab and run the cells in order.
@@ -100,17 +100,17 @@ using Jupyter Notebook, JupyterLab, VS Code, or Google Colab and run the cells i
 
 The notebook compares:
 
-| Feature Representation | Models |
-|---|---|
-| Bag of Words | Naive Bayes, Logistic Regression, SVM |
-| Word-Level TF-IDF | Naive Bayes, Logistic Regression, SVM |
-| Character-Level TF-IDF | Naive Bayes, Logistic Regression, SVM |
+|Feature Representation|Models|
+|-|-|
+|Bag of Words|Naive Bayes, Logistic Regression, SVM|
+|Word-Level TF-IDF|Naive Bayes, Logistic Regression, SVM|
+|Character-Level TF-IDF|Naive Bayes, Logistic Regression, SVM|
 
 Additional preprocessing experiments include:
 
-- Stop-word removal
-- Stemming
-- Lemmatization
+* Stop-word removal
+* Stemming
+* Lemmatization
 
 ## Optional ALLAM Experiment
 
@@ -120,7 +120,7 @@ To run this section in Google Colab:
 
 1. Use a compatible GPU runtime.
 2. Add your Hugging Face token to **Colab Secrets**.
-3. Save the secret using the name `HF_TOKEN`.
+3. Save the secret using the name `HF\\\\\\\\\\\\\\\_TOKEN`.
 4. Never place access tokens directly inside the notebook.
 
 ## Interactive Demo
@@ -131,16 +131,17 @@ An optional Gradio interface is included in the notebook for entering text and r
 
 ## Notes
 
-- The dataset itself is not included in this repository.
-- Hugging Face access tokens and other secrets should never be committed to GitHub.
-- The ALLAM section is optional and is not required to reproduce the traditional machine learning results.
+* The dataset itself is not included in this repository.
+* Hugging Face access tokens and other secrets should never be committed to GitHub.
+* The ALLAM section is optional and is not required to reproduce the traditional machine learning results.
 
 ## Future Improvements
 
 Potential extensions include:
 
-- Testing performance on very short or noisy text
-- Evaluating code-switched and mixed-language inputs
-- Comparing additional multilingual transformer models
-- Deploying the best model as a permanent web application
-- Adding automated tests and a lightweight inference API
+* Testing performance on very short or noisy text
+* Evaluating code-switched and mixed-language inputs
+* Comparing additional multilingual transformer models
+* Deploying the best model as a permanent web application
+* Adding automated tests and a lightweight inference API
+
