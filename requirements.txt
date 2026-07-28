@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+nltk
+scikit-learn
+torch
+transformers==4.44.2
+accelerate==0.34.2
+huggingface_hub
+gradio
