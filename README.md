@@ -51,7 +51,7 @@ Download the dataset and place `train.csv` in the same directory as the notebook
 ```text
 multilingual-language-identification/
 │
-├── language\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_identification.ipynb
+├── language\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_identification.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -91,7 +91,7 @@ Then download `train.csv` from the Kaggle dataset linked above.
 Open:
 
 ```text
-language\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_identification.ipynb
+language\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_identification.ipynb
 ```
 
 using Jupyter Notebook, JupyterLab, VS Code, or Google Colab and run the cells in order.
@@ -120,36 +120,16 @@ To run this section in Google Colab:
 
 1. Use a compatible GPU runtime.
 2. Add your Hugging Face token to **Colab Secrets**.
-3. Save the secret using the name `HF\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_TOKEN`.
+3. Save the secret using the name `HF\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_TOKEN`.
 4. Never place access tokens directly inside the notebook.
 
-## \## Interactive Demo
+## Interactive Demo
 
 A Gradio-based interface was developed for real-time multilingual language identification.
 
-
-
-\### Arabic Example
-
-
-
-!\[Arabic Gradio Demo](assets/gradio\_arabic.png)
-
-## 
-
-\### English Example
-
-
-
-!\[English Gradio Demo](assets/gradio\_english.png)
-
-
-
 The interface allows users to enter text and receive the predicted language instantly.
 
-## 
-
-## \## Notes
+## Notes
 
 * The dataset itself is not included in this repository.
 * Hugging Face access tokens and other secrets should never be committed to GitHub.
